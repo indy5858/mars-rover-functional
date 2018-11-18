@@ -1,14 +1,12 @@
 package kata;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
-
 import java.time.Clock;
 
 import org.junit.Test;
 
-public class MockitoTest {
+import info.solidsoft.mockito.java8.api.WithMockito;
+
+public class MockitoTest implements WithMockito {
 
     @Test
     public void worksWithMockito() throws Exception {
