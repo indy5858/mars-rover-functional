@@ -1,0 +1,32 @@
+{
+  "name": "kata-starting-point",
+  "version": "1.0.0",
+  "description": "A starting point for greenfield katas",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^3.3.5",
+    "jasmine": "^3.3.1",
+    "jasmine-ts": "^0.3.0",
+    "nyc": "^13.1.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "test": "jasmine-ts --config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indy5858/kata-starting-point.git"
+  },
+  "keywords": [
+    "kata"
+  ],
+  "author": "Andre Kappes",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/indy5858/kata-starting-point/issues"
+  },
+  "homepage": "https://github.com/indy5858/kata-starting-point#readme"
+}
