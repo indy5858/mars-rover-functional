@@ -14,7 +14,8 @@
     "typescript": "^3.2.2"
   },
   "scripts": {
-    "test": "jasmine-ts --config=jasmine.json"
+    "test": "jasmine-ts --config=jasmine.json",
+    "coverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" jasmine-ts --config=jasmine.json && nyc report"
   },
   "repository": {
     "type": "git",
