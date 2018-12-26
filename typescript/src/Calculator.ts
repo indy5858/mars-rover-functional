@@ -1,11 +1,6 @@
-export default class calculator {
-  static Sum(a: number, b: number): number {
-    let c = a + b;
-    return c;
-  }
-
-  static Difference(a: number, b: number): number {
-    let c = a - b;
-    return c;
+export default class Calculator {
+  public static sum(a: number, b: number): number {
+    const sum = a + b;
+    return sum;
   }
 }
